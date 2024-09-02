@@ -1,0 +1,13 @@
+.hidden {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    max-height: 1000px; /* Un valor lo suficientemente grande para acomodar el contenido */
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
